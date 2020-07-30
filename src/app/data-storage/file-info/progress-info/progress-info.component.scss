@@ -1,0 +1,7 @@
+@import 'src/text-font.scss';
+@import 'src/colors.scss';
+
+.text-highlight {
+  font-weight: $bold;
+  color: $pale-blue;
+}

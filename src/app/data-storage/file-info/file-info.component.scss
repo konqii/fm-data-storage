@@ -1,0 +1,11 @@
+@import 'src/colors.scss';
+
+.file-info {
+  padding: 40px;
+  background-color: $dark-blue;
+  border-radius: 12px;
+
+  &__info {
+    text-align: center;
+  }
+}

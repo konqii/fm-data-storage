@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import './text-font.scss';
+@import './colors.scss';
+
+body {
+  width: 375px;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: $font;
+  font-size: $font-size;
+  font-weight: $normal;
+  color: $gray-blue;
+  background: url('assets/bg-mobile.png');
+}

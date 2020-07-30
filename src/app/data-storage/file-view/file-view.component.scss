@@ -1,0 +1,30 @@
+@import 'src/colors.scss';
+
+.file-view {
+  background-color: $dark-blue;
+  border-radius: 12px 0px 0px 12px;
+  width: 50%;
+  padding: 40px 0px 40px 40px;
+  z-index: 1;
+}
+
+.file-view__icons {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+app-icon {
+  margin-right: 16px;
+}
+
+.container {
+  display: flex;
+}
+
+.corner {
+  width: 50%;
+  background-color: $dark-blue;
+  border-radius: 0px 100px 12px 0px;
+  z-index: 0;
+}

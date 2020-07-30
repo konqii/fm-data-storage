@@ -1,0 +1,17 @@
+@import 'src/colors.scss';
+
+.image-wrapper {
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+  border: 0px solid transparent;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $very-dark-blue;
+
+  img {
+    color: $pale-blue;
+  }
+}

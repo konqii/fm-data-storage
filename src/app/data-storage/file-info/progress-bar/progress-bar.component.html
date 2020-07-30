@@ -1,0 +1,10 @@
+<div class="progress-bar">
+  <div class="progress-bar__visual">
+    <div class="progress-bar__visual--background"></div>
+    <div class="progress-bar__visual--foreground" [ngStyle]="{ 'width': calculateWidth(size, lowerbound, upperbound) + '%' }"></div>
+  </div>
+  <div class="progress-bar__info">
+    <span class="progress-bar__info--lower">{{ lowerbound }} {{ unit }}</span>
+    <span class="progress-bar__info--upper">{{ upperbound }} {{ unit }}</span>
+  </div>
+</div>
