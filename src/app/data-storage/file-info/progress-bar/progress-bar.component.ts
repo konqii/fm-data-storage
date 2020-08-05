@@ -7,8 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ProgressBarComponent implements OnInit {
 
-  @Input() public lowerbound = 0;
-  @Input() public upperbound = 1000;
+  @Input() public lowerbound = '0';
+  @Input() public upperbound = '1000';
   @Input() public size = '815';
   @Input() public unit = 'GB';
 
